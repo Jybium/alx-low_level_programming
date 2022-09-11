@@ -1,1 +1,1 @@
-this is my first program on variables, and conditional statement with C
+this is my first projecct on variables and conditional statements with C
