@@ -1,20 +1,3 @@
-
-Emmanuel-Oreofe
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x04-more_functions_nested_loops/9-fizz_buzz.c
-@Emmanuel-Oreofe
-Emmanuel-Oreofe fizz buzz
- 1 contributor
-Executable File  38 lines (37 sloc)  618 Bytes
 #include "main.h"
 #include <stdio.h>
 /**
