@@ -7,27 +7,19 @@
  */
 int main(void)
 {
-	long int n;
-	long int max;
-	long int i;
+	unsigned long num = 612852475143;
+	unsigned long divisor = 2;
 
-	n = 612852475143;
-	max = -1;
-	while (n % 2 == 0)
+	while (divisor < num)
 	{
-		max = 2;
-		n /= 2;
-	}
-	for (i = 3; i <= sqrt(n); i = i + 2)
-	{
-		while (n % i == 0)
+		if (num % divisor == 0)
 		{
-			max = i;
-			n = n / i;
-	        }
+			num /= divisor;
+			divisor = 2;
+		}
+		else
+			divisor++;
 	}
-        if (n > 2)
-		max = n;
-	        printf("%ld\n", max);
-		return (0);
+	printf("%lu\n", num);
+	return (0);
 }
